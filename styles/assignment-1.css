@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* hero */
+.hero-section {
+    width: 100%;
+    background-image:  url(../assets/Hero-bg.png);
+
+}
+
+.hero {
+    max-width: 998px;
+    padding-top: 26px;
+    padding-bottom: 44px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-image {
+    width: fit-content;
+    margin: 0 auto;
+    height: 240px;
+
+}
+
+.hero-heading {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+}
+.hero-subtitle {
+    opacity: 0.7;
+    text-align: center;
+}
+
+.hero-button {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    padding: 21px 24px;
+    text-decoration: none;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0;
+    color: rgb(13, 19, 33);
+}
+
+
+/* first page */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 74px 152px 0px 148px;
+    
+}
+.section {
+    padding: 80px 97px;
+    border: 16px;
+    background: rgba(13, 19, 33, 0.02);
+
+}
+
+.section-div-wrapper {
+    padding: 40px 48px;
+}
+.section-div {
+
+    margin: 0px 48px 48px 48px;
+    text-align: center;
+}
+
+.section-div-h {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.section-div-p {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.card {
+
+    gap: 32px;
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    padding: 48px;
+    border-radius: 16px;
+    gap: 32px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.card-1-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-h {
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.card-p {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.card-1-img {
+    position: relative;
+    height: 240px;
+}
+.card-1-btn {
+    padding: 12px 20px 12px 20px;
+    max-width: fit-content;
+    border: 1px solid rgb(13, 19, 33);
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.card-2 {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    padding: 48px;
+    border-radius: 16px;
+    gap: 32px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+/* 2nd page */
+.section-2 {
+    border: 16px;
+
+}
+.section-2-div-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 0px;
+}
+.second-page-hp {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 144px 48px 144px;
+    text-align: center;
+}
+
+.second-page-h {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.second-page-p {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.second-page-video {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: static;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+
+    border: 16px;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    
+}
+.iframe {
+    border-radius: 16px;
+}
+
+/* third page */
+
+.section-3-hp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: auto 48px;
+    margin: 0px 97px 48px 97px;
+
+}
+
+.section-3-h {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.section-3-p {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    
+}
+.banner-1 {
+    padding: 40px;
+    background: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+
+.banner-h {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.banner-p {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-a {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+.banner-2 {
+    padding: 40px;
+    background: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+
+}
+.banner-3 {
+    padding: 40px;
+    background: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+
+}
+
+/*fourth page */
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 111px;
+    
+}
+
+.section-4-hp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: auto 48px;
+    margin: 0px 97px 48px 97px;
+}
+
+.section-4-h {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.section-4-p {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.poster-div-wrapper {
+    gap: 24px;
+}
+
+.poster {
+    display: flex;
+    justify-content: start;
+    
+    flex-direction: column;
+    gap: 24px;
+}
+
+.poster-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    gap: 24px;
+}
+
+.poster-headings {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin: 0px;
+}
+
+.poster-para {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.anchor-tags {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+
+
+.poster-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    gap: 24px;
+}
+.poster-3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    gap: 24px;
+}
+
+
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 45px 152px 0px 148px;
+    gap: 80px;
+}
+.footer-div-wrapper {    
+    display: flex;
+    border-radius: 16px;
+    background-color: rgba(0,0,0,0.6);
+    background-image: url(../assets/handshake.jpg);    
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 64px 48px;
+    color: rgb(255, 255, 255);
+    gap: 24px;
+}
+
+.footer-hp {
+    padding: auto 62px;
+    gap: 16px;
+
+}
+
+.footer-hp-h {
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.footer-hp-p {
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.footer-inputandbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.footer-input {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+    color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+    padding: 19px 20px 19px 20px;
+    justify-content: flex-start;
+
+}
+
+.footer-button {
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* contact info */
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px 150px;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.para {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.contact-info-img {
+    
+    gap: 40px;
+}
+
